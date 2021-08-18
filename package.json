@@ -1,0 +1,23 @@
+{
+  "name": "sequelize-graphql-next-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sequelize-cli": "^6.2.0"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.4.8",
+    "apollo-server-micro": "^3.1.2",
+    "dotenv": "^10.0.0",
+    "graphql": "^15.5.1",
+    "sequelize": "^6.6.5",
+    "tedious": "^11.4.0"
+  }
+}
