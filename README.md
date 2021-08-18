@@ -2,6 +2,11 @@
 - you want to quickly spin up a new nextjs app that has an api layer with graphql, sequelize, and mssql
 
 ## How do I use this
+	- clone this repo
+	- you'll need node@16.x.x installed
+	- from the parent directory, run `bash sequelize-graphql-next-template/main.sh`
+
+## What main.sh does
 - create a new app with nextjs
 	- `npx create-next-app [app name]`
 - set up env variables
@@ -42,6 +47,7 @@
 - generate a seed for your model
 	- `npx sequelize seed:generate --name users`
 	- find the seed file and fill it out with some data
+	- `npx sequelize db:seed:all`
 	- modify /api/test.js so that it calls `db.user.findAll()` and returns the results to the page and check `/api/rest`, and you should see your seed data
 - graphql
 	- first define your User type in graphql/schema/index.js and add it to the Query type
@@ -54,7 +60,4 @@
 - to use your graphql endpoint, take a look at [@apollo/client](https://www.apollographql.com/docs/react/)
 
 ## additional links
-- [sequelize-cli](https://github.com/sequelize/cli)
-
-### Todo
-	- take everything from `How do I use this` and create a bash script
+- [sequelize-cli](https://github.com/sequelize/cli
