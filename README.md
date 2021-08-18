@@ -2,9 +2,9 @@
 - you want to quickly spin up a new nextjs app that has an api layer with graphql, sequelize, and mssql
 
 ## How do I use this
-	- clone this repo
-	- you'll need node@16.x.x installed
-	- from the parent directory, run `bash sequelize-graphql-next-template/main.sh`
+- clone this repo
+- you'll need node@16.x.x installed
+- from the parent directory, run `bash sequelize-graphql-next-template/main.sh`
 
 ## What main.sh does
 - create a new app with nextjs
