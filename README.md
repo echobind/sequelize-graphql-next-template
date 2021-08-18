@@ -60,4 +60,4 @@
 - to use your graphql endpoint, take a look at [@apollo/client](https://www.apollographql.com/docs/react/)
 
 ## additional links
-- [sequelize-cli](https://github.com/sequelize/cli
+- [sequelize-cli](https://github.com/sequelize/cli)
