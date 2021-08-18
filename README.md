@@ -2,12 +2,11 @@
 - you want to quickly spin up a new nextjs app that has an api layer with graphql, sequelize, and mssql
 
 ## How do I use this
-	-- take all of this and make a bash script
 - create a new app with nextjs
-	- `npx create-next-app [app name]
+	- `npx create-next-app [app name]`
 - set up env variables
 	- copy the .env.template from this repo into your nextjs app
-	- `cp .env.template ../[app name]/.env
+	- `cp .env.template ../[app name]/.env`
 	- provide the values to those env variables, you'll find them from your mssql database
 	- you'll also want to copy that .env.template into another .env.template file in your new app so that other contributors will know what they need to set up
 	- git ignore the .env file
@@ -53,3 +52,9 @@
 		- now check localhost:3000/api/graphql and you should be able to run your queries and mutations
 - from there, you can start creating your views with react
 - to use your graphql endpoint, take a look at [@apollo/client](https://www.apollographql.com/docs/react/)
+
+## additional links
+- [sequelize-cli](https://github.com/sequelize/cli)
+
+### Todo
+	- take everything from `How do I use this` and create a bash script
